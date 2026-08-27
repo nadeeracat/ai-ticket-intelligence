@@ -1,0 +1,13 @@
+ticket_id,title,description,status,assignee,priority,created_date,due_date,acceptance_criteria,blocked
+AI-101,Payment API integration,Integrate payment provider API,In Progress,Alex Johnson,High,2026-08-01,2026-08-20,Payment API processes successful and failed transactions,false
+AI-102,User authentication bug,Users cannot reset passwords in some cases,In Progress,Sarah Lee,Critical,2026-08-05,2026-08-15,,true
+AI-103,Analytics dashboard,Build dashboard for delivery metrics,To Do,,Medium,2026-08-10,2026-08-30,Dashboard displays velocity cycle time and completion rate,false
+AI-104,Mobile checkout issue,Checkout fails on some Android devices,Blocked,Michael Brown,Critical,2026-08-03,2026-08-18,,true
+AI-105,Database optimization,Optimize slow database queries,In Progress,Emma Wilson,High,2026-08-02,2026-08-25,Queries complete within two seconds,false
+AI-106,Email notifications,Implement automated email notifications,Done,David Chen,Low,2026-08-01,2026-08-12,Users receive notifications for important events,false
+AI-107,Search performance,Improve product search response time,In Progress,James Miller,Medium,2026-08-07,2026-08-22,Search response time is under one second,false
+AI-108,Reporting feature,Create monthly reporting functionality,To Do,,High,2026-08-12,2026-09-01,,false
+AI-109,External API dependency,Integration blocked by third party API issue,Blocked,Alex Johnson,High,2026-08-04,2026-08-19,Integration works when external API is available,true
+AI-110,Security vulnerability,Fix identified security vulnerability,In Progress,Sarah Lee,Critical,2026-08-06,2026-08-16,Security scan passes without critical vulnerabilities,false
+AI-111,Data migration,Migrate legacy customer data to new database,To Do,Emma Wilson,High,2026-08-11,2026-09-05,All customer records are migrated and validated,false
+AI-112,User profile update,Allow users to update profile information,In Progress,Michael Brown,Medium,2026-08-08,2026-08-28,Users can update name email and profile image,false
