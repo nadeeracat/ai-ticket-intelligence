@@ -14,6 +14,7 @@ from analytics import (
 )
 from data_processing import load_and_process_tickets
 from rule_based_analysis import analyze_ticket_risks
+from llm_analysis import generate_ai_analysis
 
 
 st.set_page_config(
@@ -103,6 +104,26 @@ for risk_type, risk_tickets in risks.items():
                     ]
                 ],
                 use_container_width=True,
+            )
+
+
+# AI Analysis
+st.divider()
+st.header("AI Delivery Intelligence")
+
+if st.button("Generate AI Analysis"):
+    with st.spinner("Analyzing delivery data..."):
+        try:
+            ai_analysis = generate_ai_analysis(
+                metrics,
+                risks,
+            )
+
+            st.markdown(ai_analysis)
+
+        except Exception as error:
+            st.error(
+                f"Unable to generate AI analysis: {error}"
             )
 
 
